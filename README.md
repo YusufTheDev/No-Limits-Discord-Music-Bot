@@ -72,7 +72,3 @@ A Discord bot designed for managing music playback in voice channels with advanc
     ```
     https://discord.com/oauth2/authorize?client_id=your_client_id&scope=bot+applications.commands&permissions=8
     ```
-### Contact
-* Developer: YusufTheDev
-* Website: yusufthedev.github.io
-* GitHub: YusufTheDev
