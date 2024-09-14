@@ -4,6 +4,7 @@ import discord
 import asyncio
 import yt_dlp
 import spotipy
+import webserver
 from asyncio import Lock
 from dotenv import load_dotenv
 from discord import app_commands
@@ -442,4 +443,5 @@ def run_bot():
         else:
             await interaction.response.send_message("Not enough songs in the queue to remove duplicates.", ephemeral=True)
 
+    webserver.keep_alive()
     bot.run(TOKEN)
